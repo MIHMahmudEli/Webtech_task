@@ -1,0 +1,20 @@
+.box{
+    height: 200px;
+    width: 300px;
+    background-color: lightblue;
+    margin : 20px;
+}
+
+.visible{
+   overflow: visible;
+}
+
+.hidden{
+    overflow: hidden;
+}
+.scroll{
+    overflow: scroll;
+}
+.auto{
+    overflow: auto;
+}

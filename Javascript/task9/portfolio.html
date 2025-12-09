@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Interactive Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1 id="greeting">Good Day!</h1>
+<button id="themeToggle">Switch Theme</button>
+<nav>
+<a href="#" data-section="about">About</a>
+<a href="#" data-section="projects">Projects</a>
+<a href="#" data-section="contact">Contact</a>
+</nav>
+</header>
+
+
+<main>
+<section id="about" class="section">
+<h2>About Me</h2>
+<p>Hi! I'm a passionate developer seeking internships. I enjoy building interactive web applications and learning new technologies.</p>
+</section>
+
+
+<section id="projects" class="section" style="display:none">
+<h2>Projects</h2>
+<ul>
+<li>Portfolio Website</li>
+<li>Interactive To-Do App</li>
+<li>Chat Application</li>
+</ul>
+</section>
+
+
+<section id="contact" class="section" style="display:none">
+<h2>Contact Me</h2>
+<form id="contactForm">
+<label>Name:</label>
+<input type="text" id="name">
+<span class="error" id="nameError"></span>
+
+
+<label>Email:</label>
+<input type="text" id="email">
+<span class="error" id="emailError"></span>
+
+
+<label>Message:</label>
+<textarea id="message"></textarea>
+<span class="error" id="messageError"></span>
+
+
+<button type="submit">Send</button>
+</form>
+<p id="formSuccess"></p>
+</section>
+</main>
+
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+.navbar{
+    background-color: aquamarine;
+    width:100%;
+    box-sizing: border-box;
+    
+}
+.nav-item{
+    display: inline-block;
+    color: blue;
+    padding: 14px 16px;
+    
+}
+
+.navbar a{
+    text-decoration: none;
+}
+
+.nav-item:hover{
+    background-color: lightblue;
+    color: white;
+}
+
+body{
+    background-color: aliceblue;
+}

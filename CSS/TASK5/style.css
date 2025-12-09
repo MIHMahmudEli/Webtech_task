@@ -1,0 +1,20 @@
+.box{
+    width : 150px;
+    height : 150px;
+    background-color : lightblue;
+    border : 2px solid blue;
+    bottom:20px;
+    right:20px;
+    padding : 15px;
+    position: fixed;
+    text-align: center;
+    border: 5px;
+    z-index: 1000;
+
+}
+
+.box :hover{
+    background-color : seagreen;
+    text-decoration: none;
+
+}

@@ -1,0 +1,46 @@
+body {
+margin: 0;
+padding: 0;
+background: white;
+color: black;
+}
+body.dark {
+background: black;
+color: white;
+}
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 15px 30px;
+background: wheat;
+}
+body.dark header {
+background: black;
+}
+a {
+margin-left: 15px;
+cursor: pointer;
+text-decoration: none;
+color: inherit;
+}
+nav a:hover {
+     text-decoration: underline; 
+    }
+.section { 
+    padding: 20px 30px; 
+}
+.error { 
+    color: red; font-size: 12px; display: block;
+ }
+input, textarea { 
+    width: 100%; 
+    padding: 8px;
+    margin-bottom: 5px;
+    box-sizing: border-box; 
+
+}
+button { 
+    padding: 8px 12px; 
+    cursor: pointer; 
+}

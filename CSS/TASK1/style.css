@@ -1,0 +1,43 @@
+body {
+  background-color: bisque;
+}
+
+header{
+  text-align: center;
+  margin: 20px 0;
+}
+
+ h1 {
+  margin: 0;
+  font-size: 1.8em;
+}
+
+.profile {
+  width: 60%;             
+  margin: 30px auto;   
+  background-color: beige;; 
+  border: 1px solid ; 
+  padding: 20px;           
+  box-sizing: border-box; 
+  text-align: center;      
+}
+
+.profile-photo {
+ border-radius: 50%;
+}
+
+.student-name {
+  margin: 10px 0 5px;
+  font-size: 1.5em;
+}
+
+.student-info {
+  margin: 5px 0;
+  font-size: 1em;
+}
+
+.student-bio {
+  margin-top: 15px;
+  font-size: 1em;
+  line-height: 1.4em;
+}

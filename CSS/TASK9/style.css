@@ -1,0 +1,31 @@
+.sidebar{
+    display: inline-block;
+    vertical-align: top;
+    width: 15%;
+    background-color: rgb(166, 194, 118);
+    padding: 15px;
+    border: 2px  ;
+    margin-right: 2px;
+    box-sizing: border-box;
+}
+.MainContent{
+    display: inline-block;
+    vertical-align: top;
+    width: 55%;
+    background-color: lightgray;
+    padding: 10px;
+    border: 2px ;
+    margin-right: 2px;
+    box-sizing: border-box;
+}
+
+.advertisement{
+    display: inline-block;
+    vertical-align: top;
+    width: 15%;
+    background-color: orchid;
+    text-align: center;
+    padding: 15px;
+    border: 2px; 
+    margin-right: 2px;
+}
